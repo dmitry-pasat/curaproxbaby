@@ -1,0 +1,1 @@
+27-08-2018 11:46:58 - ERROR - m: 26.9 MB, u: 1 - cURL error 28: Operation timed out after 5008 milliseconds with 0 bytes received (http_request_failed) - 

@@ -1,0 +1,196 @@
+/*
+	Theme Name: bluzz
+	Author: AndreiBluzz
+	Description: blank wordpress theme + refactoring
+	Font Awesome: 4.3.0
+	Foundation: 6
+	jQuery: 3.1.1.min
+	Version: #4 (17.11.2016/2014)
+*/
+
+.lang-nav {
+	display: block !important;
+	right: auto;
+    left: 2rem;
+}
+.lang-nav-visible ul {
+	height: auto !important;
+}
+.cover {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.rounded {
+	border-radius: 5px;
+}
+.red {
+	color: #D95D62;
+}
+.fc-event, .fc-event-dot {
+	background: #D95D62 !important;
+	border: 1px solid #D95D62 !important
+}
+.date {
+	padding-top: 10px;
+}
+.text-center {
+	text-align: center;
+}
+.juicer-feed h1.referral,
+.juicer-feed.modern li.feed-item.juicer {
+	display: none !important;
+}
+.juicer-feed .j-paginate {
+    /*font-family: 'MissionScript' !important;*/
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    display: inline-block !important;
+    padding: 15px !important;
+    font-size: 2rem !important;
+    font-weight: 600 !important;
+    color: #FFFFFF !important;
+    background-color: #d95d62 !important;
+    text-decoration: none !important;
+    -webkit-transition: background-color, 250ms, ease !important;
+    -o-transition: background-color, 250ms, ease !important;
+    transition: background-color, 250ms, ease !important;
+    line-height: 1 !important;
+    -webkit-border-radius: 1rem !important;
+    border-radius: 1rem !important;
+    width: 222px !important;
+    border: none !important;
+}
+.blogy {
+	position: relative;
+	padding: 10px 0;
+}
+.absolute {
+	position: absolute;
+}
+.h200,
+.h300,
+.h600 {
+	height: 300px;
+}
+.blogy .h200,
+.blogy .h300,
+.blogy .h600 {
+	display: block;
+}
+.bottom {
+	bottom: 30px;
+	color: #fff;
+	padding: 0 30px;
+}
+.gutters {
+	padding: 10px;
+}
+.no-gutter {
+	padding: 0;
+}
+
+/* modal popup */
+.backgroundOverlay {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: #d95d62;
+	opacity: .85;
+	filter: alpha(opacity=85);
+	-moz-opacity: .85;
+	z-index: 101;
+	display: none;
+}
+.delayedPopupWindow {
+	display: none;
+	position: fixed;
+    height: 77%;
+    top: 10%;
+    left: 36%;
+    z-index: 102;
+    background-image: url(./img/popup.jpg);
+    width: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+/* end modal popup */
+
+.acf-map {
+	height: 600px;
+	width: 100%;
+}
+.mc4wp-form-fields input[type="email"] {
+	line-height: 34px;
+	height: 40px;
+	border: 1px solid #d76060;
+	border-radius: 50px 0 0 50px;
+	padding: 0 16px;
+	margin-top: 1px;
+	width: 30%;
+}
+.mc4wp-form-fields input[type="submit"] {
+	background: #d76060;
+	color: #fff;
+	border-radius: 0 50px 50px 0;
+	height: 40px;
+    border: 0;
+    margin-left: -4px;
+    padding-top: 3px;
+    width: 130px;
+}
+
+
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */ 
+@media (max-width:570px)  {
+	.delayedPopupWindow {
+	    height: 59%;
+	    top: 10%;
+	    left: 11%;
+	    width: 77%;
+    }
+}
+@media (min-width: 992px) {
+    .h200 {
+    	height: 200px;
+    }
+    .h600 {
+    	height: 620px;
+    }
+}
+/* Curaprox Baby MailChimp form styles */
+.newsletter-subscriber{
+    display: block;
+    margin: auto;
+    width: 271px;
+}
+.newsletter-subscriber h2{
+    position: relative;
+    text-align: left;
+    color: #D95D62;
+    top: 14px;
+}
+.mc4wp-form-basic label {
+    font-weight: normal!important;
+    font-size: 18px;
+    text-align: left;
+}
+.mc4wp-form-fields input[type="email"], .mc4wp-form-fields input[type="text"]{
+    border: 1px solid #d76060;
+    border-radius: 0px;
+    height: 37px;
+    padding-left: 5px;
+}
+.newsletter-subscriber .mc4wp-form-fields p{
+    padding: 8px 0!important;
+}
+
+

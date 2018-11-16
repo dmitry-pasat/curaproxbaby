@@ -1,0 +1,138 @@
+html {
+	/*background: url('http://fullhdpictures.com/wp-content/uploads/2016/02/Sunrise-Wallpaper-for-Computer.jpg') no-repeat center center fixed; */
+	background: url('../screenshot.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: auto;
+}
+
+body, #wpadminbar { background-color: rgba(0, 0, 0, 0.58); }
+
+a, .widefat th, .widefat ol, .widefat p, .widefat tfoot tr td, .widefat tfoot tr th, .widefat thead tr td, .widefat thead tr th, .widefat ul, .subtitle { color: #fff; }
+a:hover { color: #d54e21; }
+
+#sample-permalink a, .postbox a, .column-slug, .attachment-info a, #edit-slug-box a {
+	color: #006799;
+}
+
+.wp-core-ui .button:hover, .wrap .page-title-action:hover {
+	background: #d54e21;
+	color: #fff;
+	border-color: #d54e21;
+}
+
+#adminmenu, #adminmenu .wp-submenu, #adminmenuback, #adminmenuwrap {
+	width: 160px;
+	background-color: rgba(35, 40, 45, 0);
+}
+
+input[type=text], input[type=search], input[type=radio], input[type=tel], input[type=time], input[type=url], input[type=week], input[type=password], input[type=checkbox], input[type=color], input[type=date], input[type=datetime], input[type=datetime-local], input[type=email], input[type=month], input[type=number], select, textarea, .notice, .wp-filter {
+    border: none;
+    color: #fff;
+}
+
+#adminmenu .wp-has-current-submenu .wp-submenu, #adminmenu li.menu-top:hover, table.widefat, .striped>tbody>:nth-child(odd), ul.striped>:nth-child(odd), .tablenav .actions select, input[type=text], input[type=search], input[type=radio], input[type=tel], input[type=time], input[type=url], input[type=week], input[type=password], input[type=checkbox], input[type=color], input[type=date], input[type=datetime], input[type=datetime-local], input[type=email], input[type=month], input[type=number], select, textarea, #titlediv #title, .wp-editor-container, .core-updates, ul.cat-checklist, option, .notice, .wp-filter, .media-sidebar {
+	background: rgba(255, 255, 255, 0.36);
+}
+
+option {
+    color: #fff;
+    background: #006799;
+}
+
+.striped>tbody>:nth-child(odd) {
+    background-color: rgba(255, 255, 255, 0.27);
+}
+
+.categorydiv div.tabs-panel,
+.widefat thead td, .widefat thead th,
+#menu-management .menu-edit, #menu-settings-column .accordion-container, .comment-ays, .feature-filter, .imgedit-group, .manage-menus, .menu-item-handle, .popular-tags, .stuffbox, .widget-inside, .widget-top, .widgets-holder-wrap, .wp-editor-container, p.popular-tags, table.widefat, .wrap .page-title-action {
+	border: none;
+}
+
+#post-body-content, .postbox, #col-container, #edittag {
+    background: rgba(255, 255, 255, 0.91);
+}
+
+#posts-filter { padding: 10px 10px 20px; }
+
+.postbox .inside h2, .wrap [class$=icon32]+h2, .wrap h1, .wrap>h2:first-child,
+#adminmenu .wp-has-current-submenu ul>li>a,
+.tablenav .tablenav-pages,
+.subsubsub a .count, .subsubsub a.current .count,
+.ac_match, .highlight, .subsubsub a.current,
+.plugins td {
+	color: #fff;
+}
+
+.wp-core-ui .button, .wp-core-ui .button-secondary, .wp-core-ui .button-primary {
+    color: #fff;
+    border-color: #006799;
+    background: #006799;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    vertical-align: top;
+    border-radius: 0;
+}
+
+#adminmenu li.opensub>a.menu-top, #adminmenu .wp-not-current-submenu .wp-submenu {
+	background: rgba(255, 255, 255, 0.91);
+}
+
+#adminmenu .wp-submenu a, .tablenav .tablenav-pages a, .tablenav-pages-navspan, #col-container a{
+	color: rgba(0, 115, 170, 0.92);
+}
+
+#adminmenu .awaiting-mod, #adminmenu .update-plugins, .column-comments .post-com-count-pending, .wrap .page-title-action {
+	background-color: #006799;
+}
+
+.wrap .page-title-action {
+	border-radius: 0;
+}
+
+#titlewrap input[type=text],
+#addtag input[type=text],
+#addtag input[type=search],
+#addtag input[type=radio],
+#addtag input[type=tel],
+#addtag input[type=time],
+#addtag input[type=url],
+#addtag input[type=week],
+#addtag input[type=password],
+#addtag input[type=checkbox],
+#addtag input[type=color],
+#addtag input[type=date],
+#addtag input[type=datetime],
+#addtag input[type=datetime-local],
+#addtag input[type=email],
+#addtag input[type=month],
+#addtag input[type=number],
+#addtag select,
+#addtag textarea,
+.attachments-browser input[type=text],
+.attachments-browser input[type=search],
+.attachments-browser input[type=radio],
+.attachments-browser input[type=tel],
+.attachments-browser input[type=time],
+.attachments-browser input[type=url],
+.attachments-browser input[type=week],
+.attachments-browser input[type=password],
+.attachments-browser input[type=checkbox],
+.attachments-browser input[type=color],
+.attachments-browser input[type=date],
+.attachments-browser input[type=datetime],
+.attachments-browser input[type=datetime-local],
+.attachments-browser input[type=email],
+.attachments-browser input[type=month],
+.attachments-browser input[type=number],
+.attachments-browser select,
+.attachments-browser textarea {
+	color: #555;
+}
+
+.categorydiv div.tabs-panel, #post-status-info, #the-comment-list .unapproved td, #the-comment-list .unapproved th, .plugins tr, .plugins .active td, .plugins .active th {
+	background: transparent;
+}
